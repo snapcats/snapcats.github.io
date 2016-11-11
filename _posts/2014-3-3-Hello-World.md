@@ -9,7 +9,7 @@ Next you can update your site name, avatar and other options using the config.ym
 
 <div class="row">
   <div class="col-md-12">
-    <img src="{{ site.baseurl }}/images/config.png" alt="config.yml">
+    <img style="max-width: 100%;" src="{{ site.baseurl }}/images/config.png" alt="config.yml">
   </div>
 </div>
 <hr>
