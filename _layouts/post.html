@@ -25,7 +25,7 @@ layout: default-post
                               </a>
                           </li>
                           <li>
-                              <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
+                              <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}&related={{ site.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter">
                 <i class="fa fa-twitter"></i>
                               </a>
                           </li>
@@ -57,11 +57,12 @@ layout: default-post
           <hr>
             <div class="row sharing-area text-center">
                     <h3>Thank you for supporting us!</h3>
-                    <a href="#" class="btn btn-twitter">
+                    <a class="btn btn-facebook" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}&related={{ site.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter">
+                    <a class="btn btn-twitter">
                         <i class="fa fa-twitter"></i>
                         Tweet
                     </a>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="btn btn-facebook">
+                    <a class="btn nbt-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
                         <i class="fa fa-facebook-square"></i>
                         Share
                     </a>
