@@ -31,41 +31,38 @@ layout: default
               </a>
     </div>
 
-    <!-- Navbar Primary  -->
-    <nav class="navbar navbar-primary">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-primary">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#pablo">Written on</a>
-        </div>
 
-        <div class="collapse navbar-collapse" id="example-navbar-primary">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active">
-                          <li>
-                              <a>
-                <i class="material-icons">query_builder</i>
-                {{ page.date | date: "%B %e, %Y" }}
-                              </a>
-                          </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <!-- End Navbar Primary -->
-
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
   {% include disqus.html %}
 </article>
+
+<!-- Navbar Primary  -->
+<nav class="navbar navbar-primary">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-primary">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#pablo">Written on</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="example-navbar-primary">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+                      <li>
+                          <a>
+            <i class="material-icons">query_builder</i>
+            {{ page.date | date: "%B %e, %Y" }}
+                          </a>
+                      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 </div>
 </div>
 </div>
