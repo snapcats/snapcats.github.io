@@ -9,9 +9,7 @@ Next you can update your site name, avatar and other options using the config.ym
 
 <div class="row">
   <div class="col-md-12">
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
+    <img src="{{ site.baseurl }}/images/config.png" alt="config.yml">
   </div>
 </div>
 
