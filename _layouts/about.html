@@ -44,14 +44,14 @@
   	    <div class="collapse navbar-collapse" id="navigation-index">
   	    	<ul class="nav navbar-nav navbar-right">
   				<li>
-  					<a href="components-documentation.html" target="_blank">
-  						<i class="material-icons">dashboard</i> Blog
+  					<a href="/" target="_blank">
+  						<i class="material-icons">dashboard</i> Home
   					</a>
   				</li>
 
 
   				<li>
-  					<a href="{{ site.baseurl }}/about" target="_blank">
+  					<a href="/about" target="_blank">
   						<i class="material-icons">unarchive</i> Components
   					</a>
   				</li>
@@ -78,20 +78,26 @@
   <!-- End Navbar -->
 
   <div class="wrapper">
-      <div class="header header-filter" style="background-image: url('{{ site.baseurl }}/{{ page.image }}');">
-          <div class="container">
-              <div class="row">
-        <div class="col-md-6">
-          <h1 class="title">{{ page.title }}</h1>
-                    <h4>{{ page.description }}</h4>
-                    <br />
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger btn-raised btn-lg">
-            <i class="fa fa-play"></i> Watch video
-          </a>
-        </div>
-              </div>
-          </div>
-      </div>
+  <div class="header header-filter" style="background-image: url('{{ site.baseurl }}/{{ page.image }}');"></div>
+
+  <div class="main main-raised">
+    <div class="profile-content">
+            <div class="container">
+                <div class="row">
+                    <div class="profile">
+                        <div class="avatar">
+                            <img src="../assets/img/christian.jpg" alt="Circle Image" class="img-circle img-responsive img-raised">
+                        </div>
+                        <div class="name">
+                            <h3 class="title">Christian Louboutin</h3>
+              <h6>Designer</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="description text-center">
+                      <p>An artist of considerable range, Chet Faker — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. </p>
+                </div>
+
 
       {{ content }}
     </div>
