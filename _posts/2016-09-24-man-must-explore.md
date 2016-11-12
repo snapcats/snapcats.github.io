@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Man must explore, and this is exploration at its greatest"
-subtitle:   "Problems look mighty small from 150 miles up"
+title:      Man must explore, and this is exploration at its greatest
+subtitle:   Problems look mighty small from 150 miles up
 date:       2016-09-24 12:00:00
-author:     "Antonio Trento"
-header-img: "assets/img/post-bg-06.jpg"
+author:     Antonio Trento
+image: assets/img/post-bg-06.jpg
 categories: jekyll
 ---
 

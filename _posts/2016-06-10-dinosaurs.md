@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Dinosaurs are extinct today"
-subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
+title:      Dinosaurs are extinct today
+description: because they lacked opposable thumbs and the brainpower to build a space program.
 date:       2016-06-10 12:00:00
-author:     "Antonio Trento"
-header-img: "assets/img/post-bg-01.jpg"
+author:     Antonio Trento
+image: assets/img/post-bg-01.jpg
 categories: jekyll
 ---
 
