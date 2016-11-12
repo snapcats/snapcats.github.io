@@ -13,51 +13,16 @@ image: assets/img/bg2.jpeg
          <div class="col-sm-4">
           <div class="card card-signup">
 
-              <div class="header header-primary text-center">
+            <div class="header header-primary text-center">
                 <h4><a style="color:white" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-              </div>
-
-
-
-                    <div class="content text-center">
-                      <p>{{ post.excerpt }}</p>
-    									<div class="input-group">
-    										<span class="input-group-addon">
-    											<i class="material-icons">face</i>
-    										</span>
-    										<input type="text" class="form-control" placeholder="First Name...">
-    									</div>
-
-    									<div class="input-group">
-    										<span class="input-group-addon">
-    											<i class="material-icons">email</i>
-    										</span>
-    										<input type="text" class="form-control" placeholder="Email...">
-    									</div>
-
-    									<div class="input-group">
-    										<span class="input-group-addon">
-    											<i class="material-icons">lock_outline</i>
-    										</span>
-    										<input type="password" placeholder="Password..." class="form-control" />
-    									</div>
-
-    									<!-- If you want to add a checkbox to this form, uncomment this code
-
-    									<div class="checkbox">
-    										<label>
-    											<input type="checkbox" name="optionsCheckboxes" checked>
-    											Subscribe to newsletter
-    										</label>
-    									</div> -->
-    								</div>
-
-
+            </div>
+            <div class="content text-center">
+              <p>{{ post.excerpt }}</p>
               <div class="footer text-center">
                 <a href="#pablo" class="btn btn-simple btn-primary btn-lg">Read More</a>
               </div>
+            </div>
           </div>
-
         </div>
         {% endfor %}
    </div>
