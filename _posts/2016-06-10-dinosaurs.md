@@ -4,7 +4,7 @@ title:      "Dinosaurs are extinct today"
 subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
 date:       2016-06-10 12:00:00
 author:     "Antonio Trento"
-header-img: "img/post-bg-01.jpg"
+header-img: "assets/img/post-bg-01.jpg"
 categories: jekyll
 ---
 
@@ -33,7 +33,7 @@ categories: jekyll
 <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" class="img-responsive" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/assets/img/post-sample-image.jpg" class="img-responsive" alt="Post Sample Image">
 </a>
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
