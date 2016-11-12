@@ -4,21 +4,25 @@ title: Blog
 description: All amazing posts of SnapCats blog.
 image: assets/img/bg2.jpeg
 ---
-<div class="container">
-  <div class="row">
-    {% for post in site.posts %}
-    <div class="col-sm-4">
-      <article class="post">
+<div class="main main-raised">
+  <div class="section section-basic">
+      <div class="container">
+        <div class="row">
+          {% for post in site.posts %}
+          <div class="col-sm-4">
+            <article class="post">
 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-        <div class="entry">
-          {{ post.excerpt }}
+              <div class="entry">
+                {{ post.excerpt }}
+                </div>
+
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+              </article>
           </div>
-
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-    </div>
-    {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
   </div>
 </div>
